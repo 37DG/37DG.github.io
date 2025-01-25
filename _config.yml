@@ -12,7 +12,7 @@ title                    : "Daniel Garza"
 title_separator          : "-"
 name                     : &name "Daniel Garza"
 description              : &description "A current B.S. in Computer Science student at the University of Houston."
-url                      : https://DG37.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "DG37/DG37.github.io"
 
@@ -26,7 +26,7 @@ author:
   pronouns         : "he/him"
   bio              : "Currently attending the University of Houston for a Bachelors in Computer Science."
   location         : "Houston, TX"
-  employer         : "N/A"
+  employer         : "None"
   uri              : # URL
   email            : "dggarza3@cougarnet.uh.edu" 
 
@@ -293,7 +293,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
