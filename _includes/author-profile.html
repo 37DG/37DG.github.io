@@ -36,8 +36,8 @@
       {% if author.email %}
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
-      <!-- UH website requirement -->
-      <li><a href="https://www.uh.edu/nsm/computer-science/"><i class="fas fa-fw fa-link icon-pad-right"></i>UH CS Website</a></li>
+      <!-- UH website requirement (problematic?) -->
+      <!--<li><a href="https://www.uh.edu/nsm/computer-science/"><i class="fas fa-fw fa-link icon-pad-right"></i>UH CS Website</a></li> -->
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
       {% if author.arxiv %}
